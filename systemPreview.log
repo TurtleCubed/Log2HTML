@@ -1,0 +1,27 @@
+[FND] 2019-06-05 18:24:39.363 INFO > Main: Booting Family=MOI Product=Infy Proto=BB Bootmode=Full Target=Real
+[FND] 2019-06-05 18:24:46.285 INFO > TopologyLauncher: initialized - EnginePublisher/EnginePublisherNarnia in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.300 INFO > TopologyLauncher: initialized - EngineJobManager/JobManagerMOI in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.300 INFO > TopologyLauncher: initialized - JobCreator/JobCreatorMOI in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.300 INFO > TopologyLauncher: initialized - EngineJobHandler/JobHandlerEngine in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.347 INFO > TopologyLauncher: initialized - BoardEMotion/MotionControllerBoardInterfaceEMotion in 31.245001 ms.
+[FND] 2019-06-05 18:24:46.347 INFO > TopologyLauncher: initialized - Signal2DTopSwitch/SignalHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.347 INFO > TopologyLauncher: initialized - SignalStopLED/SignalHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.347 INFO > TopologyLauncher: initialized - SignalTYellow/SignalHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.347 INFO > TopologyLauncher: initialized - SignalTRed/SignalHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.347 INFO > TopologyLauncher: initialized - SignalTGreen/SignalHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - MotorRearLaneExitFeeding to BoardEMotion through IMotionControllerBoardInterface
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - RearConveyorController to MotorRearLaneExitFeeding through IActionHandler
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - MotorRearLaneExitWidthAdjust to MCTechSCLIfc through IMotionControllerBoardInterface
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - RearConveyorController to MotorRearLaneExitWidthAdjust through IActionHandler
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - SignalRearLaneEntryAirBlowSolenoid to BoardEMotion through IMotionControllerBoardInterface
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - RearConveyorController to SignalRearLaneEntryAirBlowSolenoid through IActionHandler
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - SignalRearLaneEntryStopperOnSolenoid to BoardEMotion through IMotionControllerBoardInterface
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - RearConveyorController to SignalRearLaneEntryStopperOnSolenoid through IActionHandler
+[FND] 2019-06-05 18:24:46.550 INFO > TopologyLauncher: connected - SignalRearLaneEntryStopperOffSolenoid to BoardEMotion through IMotionControllerBoardInterface
+[FND] 2019-06-05 18:24:46.722 INFO > TopologyLauncher: started - SensorRearLaneExitStopperOn/SensorHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.722 INFO > TopologyLauncher: started - SensorRearLaneExitStopperOff/SensorHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.722 INFO > TopologyLauncher: started - SensorRearLanePSmemaIn/SensorHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.722 INFO > TopologyLauncher: started - SensorRearLaneNSmemaIn/SensorHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.722 INFO > TopologyLauncher: started - SensorRearLanePrinterIdIn/SensorHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.722 INFO > TopologyLauncher: started - SensorRearLaneFlipSafety/SensorHandlerDigital in 0.000000 ms.
+[FND] 2019-06-05 18:24:46.722 INFO > TopologyLauncher: started - SensorRearLaneEntryIn/SensorHandlerDigital in 0.000000 ms.
