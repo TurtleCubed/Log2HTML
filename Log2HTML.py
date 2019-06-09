@@ -1,9 +1,18 @@
+#!/usr/bin/env python
+###############################################################################################
+#
+# @file      Log2HTML.py
+# @author    Tristan Yoo (tristan.yoo@gmail.com)
+# @date      June 07, 2019
+# @brief     Provides a script that converts a .log file to a .HTML file.
+#
+# @copyright Copyright (c) 2019 Tristan Yoo
+#
+###############################################################################################
+
 import sys
 
-"""
-Provides a script that converts a .log file to a .HTML file.  Input the file name as a parameter from the terminal.
-"""
-
+# input the file name as a parameter in the terminal
 # check if the file name is valid
 if len(sys.argv) != 2:
     raise ValueError("Invalid parameters")
